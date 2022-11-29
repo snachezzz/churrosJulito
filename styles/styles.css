@@ -1,0 +1,202 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+/*Wave */
+.waveHigh {
+  margin-top: -1rem;
+}
+
+.waveLow {
+  margin-bottom: -1rem;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+/* Header */
+.header {
+  background-image: linear-gradient(#ffc72e, #ff8533);
+  position: sticky;
+  top: 0;
+}
+
+/* Main */
+/* Main home */
+/* mainTittle */
+.tittleProducts {
+  text-align: center;
+}
+
+.paraTittle {
+  font-weight: 200;
+  font-size: large;
+  padding: 1rem;
+}
+
+/* sections */
+.h2Sweet {
+  text-align: center;
+}
+
+.h2Salty {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-style: groove;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.artTittle {
+  text-align: center;
+}
+
+/* Main log */
+.h1Log {
+  text-align: center;
+  padding: 1rem;
+}
+
+.h2Log {
+  text-align: center;
+  padding: 1rem;
+}
+
+.divFormLog {
+  display: flex;
+  justify-content: center;
+}
+
+.formLog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-style: groove;
+  border-width: 1px;
+}
+
+/* Main carrito */
+.h1Carri {
+  text-align: center;
+  padding: 1rem;
+}
+.paraCarri {
+  text-align: center;
+  font-weight: 200;
+  font-size: large;
+  padding: 1rem;
+}
+
+.divFormCarri {
+  display: flex;
+  justify-content: center;
+}
+
+.formCarri {
+  text-align: center;
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-style: groove;
+  border-width: 1px;
+}
+
+/* Main nosotros */
+.h2Nos {
+  text-align: center;
+  padding: 1rem;
+}
+
+.paraNos {
+  font-weight: 200;
+  font-size: large;
+  padding: 1rem;
+}
+
+/* Main contacto */
+.h1Contact {
+  text-align: center;
+  padding: 1rem;
+}
+
+.paraContact {
+  font-weight: 200;
+  font-size: large;
+  padding: 1rem;
+}
+
+.divFormContact {
+  display: flex;
+  justify-content: center;
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-style: groove;
+  border-width: 1px;
+}
+
+/* Footer */
+.footer {
+  background-image: linear-gradient(#ff8533, #ffc72e);
+}
+
+.ulFoot {
+  list-style-type: none;
+  text-align: center;
+  padding: 2rem;
+}
+
+#dev {
+  text-align: right;
+  padding: 1rem;
+}
